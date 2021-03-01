@@ -1,0 +1,28 @@
+body
+{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: unset;
+    font-size: 16;
+    margin: 0;
+    padding: 0;
+}
+
+#container 
+{
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+
+
+#container h4
+{
+    font-size: 20px;
+}
+
+
