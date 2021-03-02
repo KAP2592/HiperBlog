@@ -43,3 +43,4 @@ git commit -am : ya nos agrega los cambios sin necesidad de hacer un git add .
 git branch (Nombre de la rama): Para crear una nueva rama.
 git checkout (Nombre de la rama): Para moverme a una rama.
 git show: me muestra toda la informacion de donde estoy ubicado y de los cambios que he realizado.
+git merge (Nombre de la rama a fucionar); Lo hacemos desde la rama Master para no perder los avances.
