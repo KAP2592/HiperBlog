@@ -30,4 +30,11 @@ nav {
     margin-right: 10px;
 }
 
-
+#Principal{
+background-color: blue;
+color: azure;
+font-weight: bold;
+margin: 0%;
+padding: 0.5em;
+box-shadow: -8px 10px 23px 1px rgba(0,0,0,0.75);
+}
