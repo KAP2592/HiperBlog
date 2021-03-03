@@ -51,3 +51,33 @@ git remote add origin (URL del repositorio en GITHUB Ejem: https://github.com/KA
 git remote -v: para ver toda la descripcion de nuestro origen.
 git push origin master: para enviar nuestro proyecto a nuestro repositorio remoto github.
 ( si nos aparece un error de fusion) git pull origin master: para traer todo lo que esta en el repositorio remoto.
+---------------------------------
+CONECCION SSH 
+Para configurar nuestro entorno y poder agregar una llava publica y privada a nuestro repositorio para hacerlo mas seguro tenemos que
+saber que solamente es una por pc y no por repositorio, ademas de que se tiene que crear en local.
+Primeramente tenemos que saber como esta configurado github
+
+1)--> git config -l
+2)Segundo tenemos que ingresar el comando para poder desplegar el algoritmo que nos genera git.
+ssh-keygen -t rsa -b 4096 -C "kris.portillo25@gmail.com"  (damos enter)
+3)nos pedira crear una clave: 
+4)Despues de crearla nos vamos a la carpeta donde guardamos nuestra claves, vamos a copiar toda la llave publica 
+para poderla agregar.
+                                            //
+                                            para hacerlo en MAC hacemos lo siguiente:
+                                            revisar que el servidor de mack este encendido:
+                                            eval $(ssh-agent -s)
+                                            despues nos saldra esto:
+                                            agen pid 4724
+                                            --> despues agregar nuestra llave
+                                            ///
+
+<!-- EL SIGNO ~ ES UN CHORKUT QUE NOS AYUDA ACCEDER RAPIDAMENTE A CALQUIER CARPERA DENTRO DE NUESTRA PC CON BACH -->
+Seguimos agregando la llave privada con el siguiente comando:
+5)ssh-add ~/.ssh/id_rsa
+
+una vez configurado tenemos que copiar la llave publica en github y despues cambiar el origen
+para ver el origen: git remote -v
+git remote set-url origin (pegamos la url de github ssh) y LISTO!!.
+
+RECORDAR QUE ANTES DE HACER UN NUEVO COMMIT , NOS TENEMOS QUE TRAER LA ULTIMA VERSION DEL Master
