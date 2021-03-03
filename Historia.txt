@@ -43,4 +43,11 @@ git commit -am : ya nos agrega los cambios sin necesidad de hacer un git add .
 git branch (Nombre de la rama): Para crear una nueva rama.
 git checkout (Nombre de la rama): Para moverme a una rama.
 git show: me muestra toda la informacion de donde estoy ubicado y de los cambios que he realizado.
-git merge (Nombre de la rama a fucionar); Lo hacemos desde la rama Master para no perder los avances.
+git merge (Nombre de la rama a fucionar); Lo hacemos desde la rama Master para no perder los avances. y despues nos cambiamos a la rama de trabajo y hacemos lo mismo para fusionar lo del master a nuestra rama.
+///////////
+Pasos para agregar nuestro proyecto a un servidor remoto GITHUB
+1)Nos posicionamos en la rama Master
+git remote add origin (URL del repositorio en GITHUB Ejem: https://github.com/KAP2592/HiperBlog.git): Nos enlaza nuestro repositorio al servidor de github.
+git remote -v: para ver toda la descripcion de nuestro origen.
+git push origin master: para enviar nuestro proyecto a nuestro repositorio remoto github.
+( si nos aparece un error de fusion) git pull origin master: para traer todo lo que esta en el repositorio remoto.
