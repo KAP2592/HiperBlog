@@ -93,3 +93,6 @@ Ahora bien tenemos que darle permiso para que pueda hacer un push a master.
 --------------------------
 PASOS PARA DARLE PERMISOS Y TRABAJAR EN COLABORATIVO:
 1) Vamos a configuraciones de github
+2)Nos vamos a colaboradores
+3) agregamos por medio de correo o nombre de usuario de github
+4) finalmente al colaborador le llegara un mensaje que tendra que aprobar.
