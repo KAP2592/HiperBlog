@@ -81,3 +81,6 @@ para ver el origen: git remote -v
 git remote set-url origin (pegamos la url de github ssh) y LISTO!!.
 
 RECORDAR QUE ANTES DE HACER UN NUEVO COMMIT , NOS TENEMOS QUE TRAER LA ULTIMA VERSION DEL Master
+////////////OTROS COMANDOS IMPORTANTES/////////////
+git show-branch --all: Comando para poder visualizar todos los cambios que han realizado las ramas.
+gitk: para poder visualizar un sw de historias.
