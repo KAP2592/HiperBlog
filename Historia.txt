@@ -38,7 +38,7 @@ git clone url :  se trae los archivos del master a tu repo local.
 git add . : para poder agregar todos los cambios a staging.
 git commit -m: Para pasarlo al resopositorio
 git push: para subirlo al repositorio remoto.
-git pull: para bajar los cambios de los demas a mi repositorio.
+git pull: para bajar los cambios de los ew
 git commit -am : ya nos agrega los cambios sin necesidad de hacer un git add .
 git branch (Nombre de la rama): Para crear una nueva rama.
 git checkout (Nombre de la rama): Para moverme a una rama.
