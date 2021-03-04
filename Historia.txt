@@ -96,3 +96,25 @@ PASOS PARA DARLE PERMISOS Y TRABAJAR EN COLABORATIVO:
 2)Nos vamos a colaboradores
 3) agregamos por medio de correo o nombre de usuario de github
 4) finalmente al colaborador le llegara un mensaje que tendra que aprobar.
+
+////////////////RECORDAR/////////////////////////////////////////////////
+git pull origin master: para descargar las ultimos cambios o modificaciones de nuestro repositorio principal
+git push origin (Rama): para enviar nuestros cambios al repositorio principal.
+
+git diff: para visualizar donde se realizaron los ultimos cambios dentro de nuestra rama.
+-------------------------------------------------------------------------------------------
+
+USO DEL FORK
+
+Esta funcionalidad la encontramos en github y es cuando no somos colaboradoresde un proyecto pero queremos
+hacer cambios en el y que estos los puedan aprobar.
+
+Pasos:
+1) nos vamos al repositorio en git, recordamos que tiene que ser publico si no no se puede.
+2) damos en FORK
+3)git clone (URL DEL REPOSITORIO github): clonamos el repositorio en nuestro pc.
+4) hacemos los cambios.
+5) guardamos y hacemos un git commit -m.
+6)git push
+7) despues no vamos a github y damos en new pull request
+
