@@ -84,3 +84,12 @@ RECORDAR QUE ANTES DE HACER UN NUEVO COMMIT , NOS TENEMOS QUE TRAER LA ULTIMA VE
 ////////////OTROS COMANDOS IMPORTANTES/////////////
 git show-branch --all: Comando para poder visualizar todos los cambios que han realizado las ramas.
 gitk: para poder visualizar un sw de historias.
+
+---------------------------------------------------------------------------------------------------------------
+PARA TRABAJAR CON OTRO REPOSITORIO 
+git clone (pegamos la URL del repositorio de github): con eso nos descarga todo el proyecto del repositorio remoto.
+Y realizamos todos los git que hemos visto hasta el momento.
+Ahora bien tenemos que darle permiso para que pueda hacer un push a master.
+--------------------------
+PASOS PARA DARLE PERMISOS Y TRABAJAR EN COLABORATIVO:
+1) Vamos a configuraciones de github
