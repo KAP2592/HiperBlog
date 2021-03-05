@@ -117,4 +117,6 @@ Pasos:
 5) guardamos y hacemos un git commit -m.
 6)git push
 7) despues no vamos a github y damos en new pull request
+-------------------------------------------------------------------------------------------------------------
+git ignore: lista de archivos que no queremos que se muestren en nuestro repositorio!.
 
