@@ -123,3 +123,5 @@ git ignore: lista de archivos que no queremos que se muestren en nuestro reposit
 rebase: funciona para pegar una rama al master, lo cual es una mala practica. Por lo cual es solo para repositorios
        locales.
        
+
+Para hacer esta prueba tenemos que visulizar los resultados dentro de la rama master.       
