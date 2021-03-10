@@ -121,7 +121,13 @@ Pasos:
 git ignore: lista de archivos que no queremos que se muestren en nuestro repositorio!.
 
 rebase: funciona para pegar una rama al master, lo cual es una mala practica. Por lo cual es solo para repositorios
+<<<<<<< HEAD
        locales.
        
 
 Para hacer esta prueba tenemos que visulizar los resultados dentro de la rama master.       
+=======
+       locales. lo hacemos estando dentro de la rama que creamos los nuevos cambios.
+
+git rebase master: comando que lo hacemos estando en la rama creada, en el cual realizamos nuevos cambios.
+>>>>>>> experimento
